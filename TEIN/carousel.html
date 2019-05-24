@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap TEIN</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <style>
+  	.container{
+  		background-color:  #cccccc;
+  	}
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="index.html">TEIN</a>
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+  	<li class="nav-item">
+      <a class="nav-link" href="buttons.html">Buttons</a>
+    </li>
+   	<li class="nav-item">
+      <a class="nav-link" href="grid.html">Grid</a>
+    </li>
+   	<li class="nav-item">
+      <a class="nav-link" href="input.html">Input</a>
+    </li>
+   	<li class="nav-item">
+      <a class="nav-link" href="tables.html">Tables</a>
+    </li>
+  	<li class="nav-item">
+      <a class="nav-link" href="alerts.html">Alert</a>
+    </li>
+   	<li class="nav-item">
+      <a class="nav-link" href="carousel.html">Carousel</a>
+    </li>
+    <li class="nav-item ">
+    	<a class="nav-link" href="navbar.html">Navbar</a>
+    </li>
+  </ul>
+</nav>
+<br>
+  
+<div class="container">
+	<h2>Como criar um carrossel	</h2>
+	<h4>O exemplo a seguir mostra como criar um carrossel básico com indicadores:</h4>
+	&lt;div id=&quot;demo&quot; class=&quot;carousel slide&quot; data-ride=&quot;carousel&quot;&gt;</br>
+	&nbsp;&lt;ul class=&quot;carousel-indicators&quot;&gt;</br>
+	&nbsp;&nbsp;&lt;li data-target=&quot;#demo&quot; data-slide-to=&quot;0&quot; class=&quot;actice&quot;&lt;/li&gt;</br>
+	&nbsp;&nbsp;&lt;li data-target=&quot;#demo&quot; data-slide-to=&quot;1&quot;&lt;/li&gt;</br>
+	&nbsp;&nbsp;&lt;li data-target=&quot;#demo&quot; data-slide-to=&quot;2&quot;&lt;/li&gt;</br>
+	&nbsp;&lt;/ul&gt;</br>
+	&nbsp;&lt;div class=&quot;carousel-inner&quot;&gt;</br>
+	&nbsp;&nbsp;&lt;div class=&quot;carousel-item active&quot;&gt;</br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&lt;img src=&quot;nomeDaImagem1.jpg&quot;&gt;</br>
+	&nbsp;&nbsp;&lt;/div&gt;</br>
+	&nbsp;&nbsp;&lt;div class=&quot;carousel-item&quot;&gt;</br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&lt;img src=&quot;nomeDaImagem2.jpg&quot;&gt;</br>
+	&nbsp;&nbsp;&lt;/div&gt;</br>
+	&nbsp;&nbsp;&lt;div class=&quot;carousel-item&quot;&gt;</br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&lt;img src=&quot;nomeDaImagem3.jpg&quot;&gt;</br>
+	&nbsp;&nbsp;&lt;/div&gt;</br>
+	&nbsp;&lt;/div&gt;
+	<div id="demo" class="carousel slide" data-ride="carousel">
+	  <!-- Indicators -->
+	  <ul class="carousel-indicators">
+	    <li data-target="#demo" data-slide-to="0" class="active"></li>
+	    <li data-target="#demo" data-slide-to="1"></li>
+	    <li data-target="#demo" data-slide-to="2"></li>
+	  </ul>
+
+	  <!-- The slideshow -->
+	  <div class="carousel-inner">
+	    <div class="carousel-item active">
+	      <img src="info1.jpg" alt="info1">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="info2.jpg" alt="info2">
+	    </div>
+	    <div class="carousel-item">
+	      <img src="renan.jpg" alt="New York">
+	    </div>
+	  </div>
+	</div>
+
+</div>
+
+</body>
+</html>
