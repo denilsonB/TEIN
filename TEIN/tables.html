@@ -49,7 +49,8 @@
   
 <div class="container">
 	<h2>Bootstrap 4 Tables</h2>
-	<h4>Tabelas são bem simples com o Bootstrap:</h4>
+	<h4>Tabelas no bootstrap utilizam o sistema thead para o cabeçalho, de tr(linha) e td(coluna)</h4>
+	<h5>a tabela mais basica no bootstrap é:</h5>
   &lt;table class=&quot;table&quot;&gt;</br>
   &nbsp;&lt;thead&gt;</br>
   &nbsp;&nbsp;&lt;tr&gt;</br>
@@ -73,6 +74,43 @@
       <tr>
         <th>Nome</th>
         <th>Sobrenome</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5> e tambem uma tabela com as bordas mais definidas:</h5>
+    &lt;table class=&quot;table table-bordered&quot;&gt;</br>
+  &nbsp;&lt;thead&gt;</br>
+  &nbsp;&nbsp;&lt;tr&gt;</br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Nome&lt;/th&gt;</br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Sobrenome&lt;/th&gt;</br>
+  &nbsp;&nbsp;&lt;/tr&gt;</br>
+  &nbsp;&lt;/thead&gt;</br>
+  &nbsp;&lt;tbody&gt;</br>
+  &nbsp;&nbsp;&lt;tr&gt;</br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;John&lt;/td&gt;</br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Doe&lt;/td&gt;</br>
+  &nbsp;&nbsp;&lt;/tr&gt;</br>
+  &nbsp;&nbsp;&lt;tr&gt;</br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Mary&lt;/td&gt;</br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Moe&lt;/td&gt;</br>
+  &nbsp;&nbsp;&lt;/tr&gt;</br>
+  &nbsp;&lt;/tbody&gt;</br>
+  &lt;/table&gt;</br>
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>Nome:</th>
+        <th>Sobrenome:</th>
       </tr>
     </thead>
     <tbody>

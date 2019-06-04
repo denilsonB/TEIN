@@ -49,8 +49,8 @@
   
 <div class="container">
 	<h2>Bootstrap 4 Input</h2>
-  <h4><i>Bootstrap suporta todos os tipos HTML5 entrada: texto, senha, data e hora, data e hora-local, data, mês, hora, semana, número, email, url, busca, tel, e cor.</i></h4>
-  <h5>O exemplo que se segue contém dois elementos de entrada; um do tipo "text" e um do tipo="password"</h5>
+  <h4><i>Bootstrap suporta todos os tipos entrada HTML5 : texto, senha, data e hora etc.</i></h4>
+  <h5>O exemplo que a seguir contém três elementos de entrada, um do tipo "text" que seria a entrada padrão, outra do tipo "password" para senhas e uma textArea que utiliza do sistemas de linhas(rows) para grandes textos:</h5>
 
   &lt;div class=&quot;form-group&quot;&gt;</br>
   &nbsp;&nbsp;&nbsp;&lt;label&gt;Nome: &lt;/label&gt;</br>
@@ -60,6 +60,10 @@
   &nbsp;&nbsp;&nbsp;&lt;label&gt;Senha: &lt;/label&gt;</br>
   &nbsp;&nbsp;&nbsp;&lt;input type=&quot;password&quot; class=&quot;form-control&quot;&gt;</br>
   &lt;/div&gt;</br>
+  &lt;div class=&quot;form-group&quot;&gt;</br>
+  &nbsp;&nbsp;&nbsp;&lt;label&gt;Comentarios:&lt;/label&gt;</br>
+  &nbsp;&nbsp;&nbsp;&lt;class=&quot;form-control&quot; rows="5" &gt;</br>
+  &lt;/div&gt;</br>
   <div class="form-group">
     <label for="usr">Nome:</label>
     <input type="text" class="form-control" id="usr">
@@ -67,6 +71,10 @@
   <div class="form-group">
     <label for="pwd">Senha:</label>
     <input type="password" class="form-control" id="pwd">
+  </div>
+  <div class="form-group">
+    <label for="comment">Comentarios:</label>
+    <textarea class="form-control" rows="5" id="comment"></textarea>
   </div>
 </br>
 
